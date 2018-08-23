@@ -1,0 +1,14 @@
+/* compie react */
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react
+
+/* install packgae via yarn */
+ yarn add package-name
+
+/* install global package via npm */
+npm install -g  package-name@version number
+
+/* start live server */ -- run in root directory (public is the folder to serve)
+live-server public 
+
+/* create node-modules folder */
+yarn install
